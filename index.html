@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Te Amo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="painel-inicial">
+    <h1>Olá, tudo bem?</h1>
+    <p>Quero dizer o quanto você é especial pra mim.</p>
+    <button id="iniciar-btn">Entrar</button>
+  </div>
+
+  <div id="conteudo" style="display:none;">
+    <button id="coracao-btn">❤️</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <video id="video" autoplay playsinline muted style="display:none;"></video>
+
+    <div id="mensagem-romantica">
+      <h2>Você é meu tudo</h2>
+      <p>Se você soubesse o quanto eu te amo... Você traria mais um sorriso pra minha vida agora mesmo!</p>
+      <p>Você é minha razão, meu amor, minha paz.</p>
+    </div>
+
+    <div id="audio-controles" style="display:none;">
+      <button id="salvar-audio">Salvar Áudio</button>
+      <button id="enviar-zap">Enviar pro ZapZap</button>
+    </div>
+
+    <div id="console" style="display:none;">
+      <pre id="output"></pre>
+      <input type="text" id="input" placeholder="Digite $fotos">
+      <button id="send-btn">Enviar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
